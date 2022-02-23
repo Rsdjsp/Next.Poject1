@@ -1,0 +1,36 @@
+{
+  "name": "miprimerapp",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/react-paypal-js": "^7.6.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.23.0",
+    "axios": "^0.25.0",
+    "firebase": "^9.4.1",
+    "framer-motion": "^6.2.3",
+    "i": "^0.3.7",
+    "next": "12.0.8",
+    "npm": "^8.5.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebaseui": "^6.0.0",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "stripe": "^8.203.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.8",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
